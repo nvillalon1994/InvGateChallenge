@@ -6,7 +6,8 @@ import post2Img from '../assets/6_post-2.png'
 import post3Img from '../assets/7_post-3.png'
 import { NavLink, Post } from '../models'
 
-export const NavBarlinks:NavLink[] = [
+// Array de objetos que representan los enlaces de la barra de navegación
+export const NavBarlinks: NavLink[] = [
   {
     id: 1,
     name: "Products",
@@ -34,6 +35,7 @@ export const NavBarlinks:NavLink[] = [
   },
 ];
 
+// Array de objetos que representan los posts
 export const posts: Post[] = [
   {
     author: "Olivia Rhye • 20 Jan 2022",
@@ -69,7 +71,6 @@ export const posts: Post[] = [
         id: "research",
         name: "Research",
       }
-      
     ],
   },
   {
@@ -90,6 +91,7 @@ export const posts: Post[] = [
   },
 ];
 
+// Array de objetos que representan los tarjetas de podscasts
 export const cards: Post[] = [
   {
     author: "Alec Whitten • 17 Jan 2022",
@@ -143,4 +145,4 @@ export const cards: Post[] = [
       }
     ],
   }
-]
+];
