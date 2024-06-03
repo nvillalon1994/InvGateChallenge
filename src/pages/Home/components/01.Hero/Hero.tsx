@@ -9,10 +9,10 @@ export default function Hero() {
   return (
     <div   className="rounded-xl animate-fade  bg-[#E4F2FF] shadow-lg shadow-[#d4dfea]  justify-between w-full flex flex-col gap-6  lg:flex-row px-8 md:px-16 pt-10 pb-8 ">
         <div className="flex flex-col justify-center  gap-3 w-full lg:w-1/2 ">
-          <span className="text-[#347DC1] text-sm md:text-base font-medium text-center">
+          <span className="text-[#347DC1] text-sm md:text-base font-medium text-center sm:text-left">
             Articles, videos and more
           </span>
-          <p className="text-3xl sm:text-5xl md:text-4xl lg:text-5xl font-semibold text-center text-[#273A57] lg:leading-12 mb-2 tracking-wide" >
+          <p className="text-3xl sm:text-5xl md:text-4xl lg:text-5xl font-semibold text-center sm:text-left text-[#273A57] lg:leading-12 mb-2 tracking-wide" >
             Find the most relevant content in the IT world
           </p>
 
