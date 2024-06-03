@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  font-family: "DM Sans", sans-serif;
+  
+  
+  
+}
+::-webkit-scrollbar {
+  width: 12px; 
+  height: 12px; 
+}
+
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+  border-radius: 10px; 
+}
+
+
+::-webkit-scrollbar-thumb {
+  background: #367399; 
+  
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+.no-scroll-bar::-webkit-scrollbar {
+  width: 20px; 
+  height: 12px;
+  
+  
+}
+
+/* Para otros navegadores como Firefox */
+.no-scroll-bar::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+  border-radius: 10px; 
+  border-right: 10px solid white;
+  
+  
+}
+.no-scroll-bar::-webkit-scrollbar-thumb {
+  background: #3c3e3f; 
+  width: 10px;
+  border-right: 10px solid white;
+  
+  
+}
+.no-scroll-bar::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+} 
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(150px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Aplica la animación a tu elemento */
+.search-container {
+  animation: fadeUp 1s ease-in-out;
+}
