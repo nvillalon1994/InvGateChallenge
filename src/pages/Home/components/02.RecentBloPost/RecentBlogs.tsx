@@ -9,7 +9,7 @@ import FiltersTags from "./Filters";
 export default function RecentBlogs() {
   const [selectedTag, setSelectedTag] = useState<string>("");
   const filterPosts: Post[] = useFilteredData(posts, selectedTag);
-
+  
   return (
     <>
       <div className="px-4 md:px-14 py-12 flex flex-col gap-5 md:gap-8 animate-slide-up">
@@ -17,7 +17,6 @@ export default function RecentBlogs() {
         <div className="flex flex-col md:flex-row gap-2 md:items-center ">
           <h2 className="text-2xl font-medium">Recent blog posts</h2>
           <FiltersTags selectedTag={selectedTag} setSelectedTag={setSelectedTag}/>
-         
         </div>
 
         {filterPosts.length === 0 ? (
