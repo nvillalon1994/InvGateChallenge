@@ -1,5 +1,6 @@
 // Importación de imágenes y iconos
 import logo from "../../assets/1_invgate-logo.png";
+
 import langIcon from "../../assets/lang-icon.svg";
 import { IoIosArrowDown } from "react-icons/io";
 import { IoCloseSharp } from "react-icons/io5";
@@ -15,7 +16,7 @@ export default function NavegationBar() {
   
   return (
     // Barra de navegación principal
-    <nav className={`flex justify-between bg-white z-50 animate-fade-down items-center h-16 lg:h-20 fixed top-0 w-full px-8 lg:px-16 xl:px-28 2xl:px-14`}>
+    <nav className={`flex justify-between bg-white z-50 animate-fade-down items-center h-16 lg:h-20 fixed top-0 w-full px-8 lg:px-16 xl:px-28 2xl:px-44`}>
       {/* Navbar Responsive */}
       <ResponsiveNavegationBar showMenu={showMenu} links={NavBarlinks} />
 
