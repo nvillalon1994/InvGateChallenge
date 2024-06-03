@@ -1,4 +1,4 @@
-import React from "react";
+
 // Componente de loading
 export default function Loading() {
   return <div>

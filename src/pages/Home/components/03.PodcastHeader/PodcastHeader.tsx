@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { cards } from "../../../../mocks";
 import { Post } from "../../../../models";
 import PostCard from "../02.RecentBloPost/PostCard";

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import useFilteredData from "../../../../hooks/useFilterPost";
 import { posts } from "../../../../mocks";
 import { Post } from "../../../../models";
