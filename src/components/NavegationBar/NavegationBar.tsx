@@ -3,7 +3,7 @@ import langIcon from "../../assets/lang-icon.svg";
 import { IoIosArrowDown } from "react-icons/io";
 import { IoCloseSharp } from "react-icons/io5";
 import { RiMenuLine } from "react-icons/ri";
-import { useEffect, useState } from "react";
+import {  useState } from "react";
 import ResponsiveNavegationBar from "./ResponsiveNavegationBar";
 import { NavBarlinks } from "../../mocks";
 
