@@ -13,7 +13,7 @@ export default function PodcastHeader() {
   const filterCard: Post[] = useFilteredPosts(cards, selectedTag);
 
   return (
-    <div className="px-8 md:px-28 2xl:px-48 py-12 flex flex-col gap-5 md:gap-8 bg-[#F5F9FC]">
+    <div className="px-8 md:px-28 2xl:px-48 py-12 flex flex-col gap-5 md:gap-8 bg-[#F5F9FC] animate-slide-up">
       <div className="flex flex-col md:flex-row gap-2 md:items-center">
         <h2 className="text-2xl font-medium">
           Hear Ticket Volume, our podcast of ITSM world
